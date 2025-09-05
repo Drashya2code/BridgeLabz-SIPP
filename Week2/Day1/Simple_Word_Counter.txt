@@ -1,0 +1,14 @@
+Pseudo-code Problem - Simple Word Counter
+
+Start
+1. Input: paragraph of text.
+2. Split text into words.
+3. Normalize words to lowercase.
+4. Remove punctuation.
+5. Use Map<Word, Count> to store frequency.
+6. Use Stream to process and count.
+7. Sort words by frequency and display.
+8. Example:
+   Input: "The news today is about the rise in technology trends."
+   Output: the(2), news(1), today(1), is(1), about(1), rise(1), in(1), technology(1), trends(1)
+End

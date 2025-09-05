@@ -1,0 +1,13 @@
+Pseudo-code Problem - Attendance Marker
+
+Start
+1. Represent attendance as 2D Array [students][days].
+2. Each cell: 'P' (Present) or 'A' (Absent).
+3. Daily marking: update attendance for each student.
+4. Teacher can update attendance if needed.
+5. Generate monthly report per student: count 'P' values.
+6. Example:
+   - Student 1 first week: P, P, A, P, P, P, A
+   - Teacher updates day 3 from A → P.
+   - Report: Student 1 present 26 days.
+End

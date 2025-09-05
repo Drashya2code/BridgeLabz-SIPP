@@ -1,0 +1,13 @@
+Pseudo-code Problem - Online Exam Portal (Basic)
+
+Start
+1. Define class User with attributes: username, password.
+   Method: login().
+2. Define subclass Student(User).
+   Override login(): check credentials and enrollment before access to exams.
+3. Define subclass Admin(User).
+   Override login(): check credentials and admin privileges before allowing management.
+4. Example:
+   - Student "john123" logs in → validate credentials + enrollment → show exams.
+   - Admin logs in → validate credentials + role → show exam tools.
+End

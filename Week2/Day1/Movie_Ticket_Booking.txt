@@ -1,0 +1,16 @@
+Pseudo-code Problem - Movie Ticket Booking
+
+Start
+1. Define class Ticket with attributes: movieName, seatNumber, price, status.
+2. Define class Theatre with attributes: schedules, availableSeats, tickets.
+   Methods: issueTicket(), cancelTicket().
+3. Define class Customer with attributes: name, bookedTickets.
+   Methods: bookTicket(), cancelTicket().
+4. Scenario:
+   - Customer selects movie in Theatre.
+   - Theatre checks seat availability, creates Ticket.
+   - Customer can cancel before showtime.
+5. Example:
+   - Ravi books Avengers: Endgame at 6 PM, seat A12 → ticket issued, seat updated.
+   - Ravi cancels ticket → seat A12 freed.
+End

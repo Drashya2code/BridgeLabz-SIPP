@@ -1,0 +1,14 @@
+Pseudo-code Problem - Daily Tasks Organizer
+
+Start
+1. Use LinkedHashMap<TaskID, TaskDescription> to preserve insertion order.
+2. Auto-generate TaskID on insertion.
+3. Allow operations:
+   - Add new task.
+   - Remove task by ID.
+   - Display tasks in insertion order.
+4. Example:
+   - Add: 1 → Check emails, 2 → Prepare sales report, 3 → Call client.
+   - Remove: 2.
+   - Remaining: 1 → Check emails, 3 → Call client (order preserved).
+End

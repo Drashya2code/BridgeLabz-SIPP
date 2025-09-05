@@ -1,0 +1,13 @@
+Pseudo-code Problem - Bus Route Navigator
+
+Start
+1. Represent route as LinkedList of stops.
+2. Insertion operation: add new stop at specific position.
+3. Deletion operation: remove stop if no longer valid.
+4. Search operation: check if stop exists in the route.
+5. Example:
+   Initial route: Depot → Main Street → City Mall → Hospital → Airport
+   Insert University Stop after City Mall.
+   Delete Hospital.
+   Search for Airport → found.
+End
